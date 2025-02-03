@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <>
-      <div>
+      <div className="mb-4 md:mb-0">
         <div className="h-3 bg-gradient-to-r from-orange-600 to-pink-600"></div>
         <nav className="border-b-1 border-b-neutral-300 flex justify-start p-4 gap-4 ">
           <div className="hidden sm:block sm:px-4">
