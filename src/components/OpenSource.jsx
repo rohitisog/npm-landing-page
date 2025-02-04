@@ -3,7 +3,7 @@ import React from "react";
 const OpenSource = () => {
   return (
     <>
-      <div className="text-center flex flex-col justify-center items-center px-6 py-16">
+      <div className="border-b-1 border-neutral-300 text-center flex flex-col justify-center items-center px-6 py-16">
         <img
           className="h-24 w-24 mt-20 mb-6"
           src="https://static.npmjs.com/attachments/ck3uweazy72ye8874y9kkxnx1-gak.png"
