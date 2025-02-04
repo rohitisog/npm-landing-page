@@ -1,5 +1,6 @@
 import React from "react";
-
+import github from "../assets/GitHub.svg"
+import npm from "../assets/NPM.svg"
 const Footer = () => {
   const footerData = [
     {
@@ -18,7 +19,12 @@ const Footer = () => {
 
   return (
     <>
-      <div className="px-8 py-10 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12 ">
+      
+      <div className="px-8 py-10 mt-10 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-6 md:gap-12 items-center ">
+       <div className="">
+       <img className="h-24"  src={npm} alt=""/>
+       <img className="h-24" src={github} alt=""/>
+       </div>
         {footerData.map((section, index) => (
           <div key={index}>
             <div className="font-bold text-lg mb-4">{section.title}</div>
